@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "careful_sneaking",
+  "version": "${version}",
+  "name": "CarefulSneaking",
+  "description": "",
+  "authors": [
+    "Nico_44"
+  ],
+  "contact": {},
+  "license": "GPL-3.0",
+  "icon": "",
+  "environment": "*",
+  "entrypoints": {
+  },
+  "mixins": [
+    "careful_sneaking.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "minecraft": "${minecraft_req_version}"
+  },
+  "suggests": {
+    "fabric-api": "*"
+  }
+}

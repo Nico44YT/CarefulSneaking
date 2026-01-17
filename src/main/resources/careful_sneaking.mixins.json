@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "nico.carefulsneaking.mixin",
+  "compatibilityLevel": "JAVA_${java_version}",
+  "mixins": [
+    "SweetBerryBushBlockMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}
